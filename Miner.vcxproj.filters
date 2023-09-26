@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Text\Text.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\Application.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\Field\Field.h">
+      <Filter>Application\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\FieldManager\FieldManager.h">
+      <Filter>Application\FieldManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Miner.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Text\Text.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\Application.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\Field\Field.cpp">
+      <Filter>Application\Field</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\FieldManager\FieldManager.cpp">
+      <Filter>Application\FieldManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Text">
+      <UniqueIdentifier>{63ec122d-28ea-4118-a3e9-4ed60ec3dcbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{ac506c14-a87d-45e2-8b99-a5d7f0b16e0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Field">
+      <UniqueIdentifier>{7ebe196c-a28f-4017-8020-7eaa0f1390a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\FieldManager">
+      <UniqueIdentifier>{d233370b-2469-4799-bd4e-dd3bc43807dd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon1.ico" />
+    <None Include="icon2.ico" />
+    <None Include="FieldClose_Down.bmp" />
+    <None Include="FieldClose_Out.bmp" />
+    <None Include="FieldClose_Over.bmp" />
+    <None Include="FieldFlag_Down.bmp" />
+    <None Include="FieldFlag_Out.bmp" />
+    <None Include="FieldFlag_Over.bmp" />
+    <None Include="FieldEmptily.bmp" />
+    <None Include="FieldDoubt_Down.bmp" />
+    <None Include="FieldDoubt_Out.bmp" />
+    <None Include="FieldDoubt_Over.bmp" />
+    <None Include="Field1.bmp" />
+    <None Include="Field2.bmp" />
+    <None Include="Field3.bmp" />
+    <None Include="Field4.bmp" />
+    <None Include="Field5.bmp" />
+    <None Include="Field6.bmp" />
+    <None Include="Field7.bmp" />
+    <None Include="Field8.bmp" />
+    <None Include="FieldMine.bmp" />
+  </ItemGroup>
+</Project>
